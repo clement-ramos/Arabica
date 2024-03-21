@@ -45,7 +45,6 @@ void int_to_big_endian(int num, uint8_t *buffer) {
     buffer[3] = num & 0xFF;
 }
 
-// Function to parse a line and write its hex value along with arguments to a binary file
 void parseLine(FILE *binaryFile, char *line) {
     char *token;
     char *delimiter = " \t\n"; // Whitespace characters

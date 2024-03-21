@@ -46,8 +46,20 @@ typedef struct {
     int numArgs;
 } Instruction;
 
+/**
+ * Parses a line of code and writes the corresponding binary representation to a file.
+ *
+ * @param binaryFile The file to write the binary representation to.
+ * @param line The line of code to parse.
+ */
 void parseLine(FILE *binaryFile, char *line);
 
+/**
+ * Converts an integer to big endian byte order and stores it in a buffer.
+ *
+ * @param num The integer to convert.
+ * @param buffer The buffer to store the converted bytes.
+ */
 void int_to_big_endian(int num, uint8_t *buffer);
 
 #endif //ARABICA_PARSER_H

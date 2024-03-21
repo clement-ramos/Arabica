@@ -23,4 +23,14 @@ struct {
         .name = {'C', 'O', 'M', 'P', 'I', 'L', 'E', 'R'}
 };
 
+/**
+ * Main function of the program.
+ *
+ * @param argc The number of command-line arguments.
+ * @param argv An array of strings containing the command-line arguments.
+ *             The first argument should be the input filename, and the second argument should be the output filename.
+ * @return 0 if the program executed successfully, 1 otherwise.
+ */
+int main(int argc, char *argv[]);
+
 #endif

@@ -4,7 +4,6 @@
 
 #include "../include/main.h"
 
-
 int main(int argc, char *argv[]) {
     // Check if the correct number of arguments is passed
     if (argc != 3) {
@@ -60,5 +59,3 @@ int main(int argc, char *argv[]) {
     fclose(outputFile); // Close the output binary file
     return 0;
 }
-
-
