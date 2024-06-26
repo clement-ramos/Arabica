@@ -1,7 +1,3 @@
-//
-// Created by Clément² on 13/03/2024. (Pas elie trop nul)
-//
-
 #include "../include/main.h"
 
 int main(int argc, char *argv[]) {

@@ -1,7 +1,3 @@
-//
-// Created by Clément² on 13/03/2024. (Pas elie trop nul)
-//
-
 #include "../include/parser.h"
 
 // List of instructions along with their hex values and argument counts
